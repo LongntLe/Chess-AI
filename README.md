@@ -38,6 +38,8 @@ From the critiques above, I propose a few ways the AI could be improved:
 
 3/ Deepen the depth of the search tree. This might include implementing a better search technique (for example, iterative deepning), move ordering (as to prevent the worse case of minimax, when moves are order strictly ascending for a maximizer, or descending for a minimizer, from happening), or optimizing using low-level languages such as C.
 
+4/ Better organize the repo for further modularization and refactorization. But it is not the priority currently.
+
 ### Insights
 
 It seems that the evaluation functions in this case complement the minimax algorithm well as it makes up for the depth limit of the search tree by heuristics that enhances the quality of the decision making process.

@@ -300,7 +300,7 @@ def ai_move(board, white):
     """
     Helper function: Initialize the minimax algorithm to and return AI's move
     """
-    min_move = minimaxRoot(4,board,True,white)
+    min_move = minimaxRoot(3,board,True,white)
     return min_move
 
 def game():
